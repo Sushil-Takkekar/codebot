@@ -1,0 +1,80 @@
+/*
+* This is file specially designed for NGO project.
+* @author Sushil
+**/
+
+/************* Colors *************/
+.blue-black.darken-4 {
+    background-color: #22252f !important;
+}
+.green-text{
+	color: #008000;
+}
+.green-text.light-1 {
+	color: #68d26b !important;
+}
+/**********************************/
+.hover-white:hover {
+	background-color: rgba(255, 255, 255, 0.16) !important;
+}
+.margin-center {
+	margin: 0px auto;
+}
+/************* Width **************/
+.wd {
+	width: 100%;
+}
+.wd75 {
+	width: 75% !important;
+}
+.wd95 {
+	width: 95% !important;
+}
+.maxWd1500 {
+	max-width: 1500px !important;
+}
+/************* Icons-edit **************/
+.input-field .prefix {
+    position: absolute;
+    width: 3rem;
+    font-size: 2rem;
+    transition: color .2s;
+    top: 10px;
+}
+/*********** Editor Page ************/
+.editor-pg-cntnr {
+	background-color: rgba(220, 220, 220, 0.4);
+	margin: 8px;
+}
+.editing-area {
+	height: 570px !important;
+	min-height: 570px !important;
+    max-height: 570px !important;
+    border-bottom: 0px !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+.editing-area:focus {
+	box-shadow: none !important;
+	//height: 570px !important;
+    //max-height: 600px !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+.edit-area-L {
+    border: 1px solid #b9b8b8;
+    width: 99.5% !important;
+    margin-top: 5px;
+    background-color: white;
+    height: 630px !important;
+}
+.sbmt-btn-edit {
+	float: right;
+    margin-right: 5px;
+    padding: 0px 12px;
+}
+#outputBox {
+    color: rgba(0, 0, 0, 0.75) !important;
+    text-align: left;
+    padding-top: 25px;
+}

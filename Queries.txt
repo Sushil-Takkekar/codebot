@@ -1,0 +1,4 @@
+	
+	SELECT * FROM student where roll_no In(
+		SELECT roll_no FROM stud_course where course_id=101
+	)

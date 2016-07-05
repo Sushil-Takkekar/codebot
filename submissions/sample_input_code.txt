@@ -1,0 +1,10 @@
+import java.util.*;
+class Hello {
+   public static void main(String[]agrs)
+  {
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+    int y = sc.nextInt();
+    System.out.println("Sum of "+x+" and "+y+" is : "+(x+y));
+  }
+}
